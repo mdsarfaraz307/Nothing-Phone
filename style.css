@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: grey;
+
+}
+.herobox{
+    background-color: black;
+    color: red;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    /* margin: 30px 0; */
+    background-color: black;
+    padding: 30px 10px;
+}
+.main h2{
+    text-align: center;
+    color: red;
+
+}
+.para{
+    color: red;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px ;
+   }
+.heading{
+    text-align: center;
+    color: red;
+}
+.Rcard{
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 92%;
+}
+.starrating{
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+} 
+.starrating table{
+    width: 100%;
+    border: 1px solid yellow;
+}
+.fa-check{
+    color: green;
+}
+.fa-star{
+    color: red;
+    padding-left: 30px;
+}
+.fa-star-half-full{
+    padding-left: 30px;
+}
+.table{
+    border-color: yellow;
+}
+.checked{
+    color: gold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.fixed1{
+    background-color: gold;
+    width: 300px;
+}
+.fixed1 ul{
+    padding-left: 20px;
+}
+.fixed2{
+    background-color:yellow;
+    width: 300px;
+    
+}
+.fixed2 ul{
+    padding-left: 25px;
+}
+.rightcolumn{
+    float: right;
+    width: 100%;
+    margin-top: 20px;
+    border-right: none !important;
+}
+.price{
+    background-color: black;
+
+}
+.rightcolumn h2{
+    text-align: center;
+    color: red;
+}
+.price h2{
+    padding-top: 40px;
+}
+.price p{
+    color: red;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.review{
+    background-color: black;
+}
+.review h3{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: red;
+}
+.review p{
+    padding-left: 10px;
+    color: red;
+}
+.review li{
+    margin-left: 49px;
+    color: red;
+}
+.design{
+    background-color: black;
+}
+.design h3{
+    text-align: center;
+    color: red;
+    padding: 30px 0;
+}
+.fakeimg{
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+}
+.fakeimg p{
+    padding-top: 10px;
+    color: red;
+    font-size: 18px;
+}
+.leftcolumn{
+    padding-top: 10px;
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; 
+}
+.parag {
+    color: red;
+    padding-left: 13px;
+    font-size: 18px;
+}
+.display{
+    background-color: black;
+}
+.display h3{
+    text-align: center;
+    color: red;
+    padding: 30px 0;
+}
+.expert-rating h3{
+    text-align: center;
+    color: red;
+    margin-bottom: 50px; 
+}
+.faq h4{
+    color: red;
+    margin-bottom: 30px;
+}
+.faq p{
+    padding: 0px;
+    margin: 0;
+}
+.faq p b{
+    color: white;
+}
+
+.box >a{
+    font-size: 20px;
+    display: inline-block;
+    line-height: 5px;
+    transition: 0.3s;
+    padding: 26px;
+    border-radius: 50%;
+    height: 60px;
+    color: white;
+}
+.container-p{
+    background-color: aliceblue;
+    padding: 35px 35px ;
+    text-align: center;
+}
+.footer p b{
+    color:red;
+}
+.fa-instagram{
+    background-image: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 1200px)
+.container {
+    max-width: 1215px;
+} */
